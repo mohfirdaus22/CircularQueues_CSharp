@@ -21,6 +21,15 @@ namespace CircularQueues_CSharp
                 FRONT = 0;
                 REAR = 0;
             }
+            else
+            {
+                /* If REAR is at the last position of the array, then the value of REAR is set to 0 that corresponds to the first position of the array. */
+                if (REAR == max - 1)
+                    REAR = 0;
+                else
+                    /*If REAR is not at the last position, then its value is incremend by one.  */
+                    REAR = REAR + 1;
+            }
 
         }
     }
