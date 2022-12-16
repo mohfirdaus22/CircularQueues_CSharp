@@ -141,21 +141,22 @@ namespace CircularQueues_CSharp
                                     Console.WriteLine("Invalid Option!!");
                                 }
                                 break;
-
-
-
-
                         }
                     }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("Check for the values Entered. ");
+                    }
+
+
+                }
+
+
+
 
             }
 
-
-
-
-        }
-
-
+        } 
 
 
     }
